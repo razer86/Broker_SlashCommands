@@ -1,0 +1,13 @@
+## Interface: 120000
+## Title: Broker: Slash Commands
+## Notes: LDB plugin that displays all registered slash commands by addon. Hooks SlashCmdList for accurate ownership detection.
+## Author: Gabriellus - Frostmourne US
+## Version: 1.0.0
+## X-Curse-Project-ID: 1431441
+## SavedVariables: Broker_SlashCommands_CollapsedAddons
+
+# Libraries
+embeds.xml
+
+# Main addon
+Broker_SlashCommands.lua
