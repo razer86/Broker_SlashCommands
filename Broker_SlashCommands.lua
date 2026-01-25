@@ -5,6 +5,12 @@
 
 local addonName = "!Broker_SlashCommands"
 
+-- API compatibility for Classic
+local C_AddOns = C_AddOns or {
+    GetNumAddOns = GetNumAddOns,
+    GetAddOnInfo = GetAddOnInfo,
+}
+
 --============================================================================
 -- EARLY HOOK: Must run before other addons load
 -- Capture the source addon when slash commands are registered

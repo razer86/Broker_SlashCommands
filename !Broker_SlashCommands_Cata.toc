@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 40401
 ## Title: Broker: Slash Commands
 ## Notes: LDB plugin that displays all registered slash commands by addon. Hooks SlashCmdList for accurate ownership detection.
 ## Author: Gabriellus - Frostmourne US
